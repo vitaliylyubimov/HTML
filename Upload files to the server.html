@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Upload files to the server</title>
+	</head>
+	<body>
+		<h1>Загрузка файлов на сервер</h1>
+		<form action="http://www.primer.ru/zagruzka.php" method="post">
+			<p>Выгрузите свою песню в формате mp3: </p>
+			<input type="file" name="pesnya">
+			<br>
+			<input type="submit" value="Загрузить">
+			<!--При создании формы позволящий загружать файлы на сервер, всегда указывается метод post (значение атрибута method элемента <form>). Передача на сервер невозможна при использовании method="get"-->
+		</form>
+	</body>
+</html>

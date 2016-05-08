@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Dropdown list</title>
+		<style>
+			h1{
+				text-shadow: 2px 2px 5px red;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Single select</h1>
+		<form action="http://www.exemple.com/profile.php">
+			<p>На каком устройстве вы чаще всего слушаете музыку?</p>
+			<select name="ustroistva">
+				<option value="ipod">iPod</option>
+				<option value="radio">Радио</option>
+				<option value="computer">Компьютер</option>
+			</select>
+		</form>
+		<h1>Multiply select</h1>
+		<form action="htttp://www.primer.ru/profile.php">
+			<p>Играете ли вы на одном из инструментов, перечисленных ниже? (Вы можете выбрать сразу несколько вариантов ответа, нажав и удерживая клавишу <b>Ctrl</b> (Windows) или <b>Cmd</b> (OS X)).</p>
+			<select name="instrumenty" size="3" multiple="multiple">
+				<option value="gitara" selected="selected">Гитара</option>
+				<option value="barabany">Барабаны</option>
+				<option value="klavishnye" selected="selected">Клавишные</option>
+				<option value="bas">Бас-гитара</option>
+				<!--size="3" - количество отображаемых элементов в списке при загрузке страницы-->
+				<!--multiple="multiple" - задаёт списку множественный выбор-->
+				<!--Если не указать size, список будет полностью отображен-->
+			</select>
+		</form<
+	</body>
+</html>
